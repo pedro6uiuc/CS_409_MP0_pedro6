@@ -1,1 +1,30 @@
 /* Your CSS here. */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    flex-wrap: wrap;
+    background-color: rgb(228, 240, 119);
+    padding: 0px 50px;
+    margin: 50px;
+
+
+}
+p, h1, h3{
+    text-align: center;
+}
+.image{
+    height: 150px;
+    width: 150px;
+}
+.email{
+    font-style: italic;
+    font-weight: lighter;
+}
